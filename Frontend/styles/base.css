@@ -17,17 +17,17 @@ div {
 
 /* Page headers */
 
-.login-container h1{
+.login-container, .events-container h1{
     font-family: 'Audiowide';
     font-size: 5vw;
 }
 
-.login-container h2{
+.login-container, .events-container h2{
     font-family: 'Space Grotesk';
     font-size: 3.5vw;
 }
 
-.login-container h6{
+.login-container, .events-container h6{
     font-family: 'Space Grotesk';
     margin-bottom: 10px;
     margin-top: 40px;
