@@ -5,6 +5,7 @@ body {
     background-position: center; 
     background-size: cover;
 }
+
 div {
     padding: 50px;
     text-align: center;
@@ -13,25 +14,34 @@ div {
     align-items: center;
     justify-content: center;
 }
-h1 {
+
+/* Page headers */
+
+.login-container h1{
     font-family: 'Audiowide';
     font-size: 5vw;
 }
-h2 {
+
+.login-container h2{
     font-family: 'Space Grotesk';
     font-size: 3.5vw;
 }
-h6 {
+
+.login-container h6{
     font-family: 'Space Grotesk';
     margin-bottom: 10px;
     margin-top: 40px;
     font-size: 2vw;
 }
-img {
+
+/* Login page logo */
+
+.login-container img{
     max-width: 30vw;
     height: auto;
     margin-top: 75px;
 }
+
 #microsoftLogin {
     font-family: 'Audiowide';
     margin-top: 20px;
@@ -44,6 +54,7 @@ img {
     transition: all 0.25s ease-in-out;
     text-decoration: none;
 }
+
 #microsoftLogin:hover {
     outline: none;
     border-color: #0b5522;

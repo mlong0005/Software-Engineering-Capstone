@@ -1,0 +1,53 @@
+/* Navbar Alignment */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+/* Navbar Headers */
+.navbar h1 {
+    font-family: 'Audiowide';
+    font-size: 5vw;
+}
+.navbar h2{
+    font-family: 'Space Grotesk';
+    font-size: 3.5vw;
+}
+.navbar h6{
+    font-family: 'Space Grotesk';
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 2vw;
+}
+
+/* Navbar Span (Text like h1) */
+.navbar span {
+  font-family: 'Audiowide';
+    font-size: 2vw; 
+}
+
+/* Navbar images */
+.navbar .logo img{
+  max-width: 67px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+/* Navbar ul */
+.navbar ul{
+  list-style-type: none;
+}
+
+.navbar ul li{
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li a{
+  font-family: 'Audiowide';
+  text-decoration: none;
+  color: #000;
+  font-size: 2vw;
+}
