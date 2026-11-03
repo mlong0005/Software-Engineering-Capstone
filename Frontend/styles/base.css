@@ -1,7 +1,6 @@
 
 
 body {
-    background-image: url('/images/bg.png');
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
@@ -28,31 +27,26 @@ h6 {
     margin-top: 40px;
     font-size: 2vw;
 }
-input {
+img {
+    max-width: 30vw;
+    height: auto;
+    margin-top: 75px;
+}
+#microsoftLogin {
+    font-family: 'Audiowide';
+    margin-top: 20px;
+    padding: 15px;
     border: 1.5px solid #e2e8f0;
     border-radius: 8px;
     background-color: #ffffff;
     color: #1a202c;
     font-size: 2vw;
     transition: all 0.25s ease-in-out;
-    padding: 10px;
+    text-decoration: none;
 }
-input:focus {
+#microsoftLogin:hover {
     outline: none;
     border-color: #0b5522;
     box-shadow: 0 0 0 4px rgba(10, 75, 37, 0.15);
-    background-color: #ffffff;
-}
-input:placeholder {
-  color: #a0c0ad;
-}
-img {
-    max-width: 30vw;
-    height: auto;
-    margin-top: 150px;
-}
-#submit {
-    font-family: 'Audiowide';
-    margin-top: 20px;
-    padding: 15px;
+    background-color: rgb(219, 219, 219);
 }
